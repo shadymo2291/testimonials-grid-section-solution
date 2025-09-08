@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL:https://github.com/shadymo2291/testimonials-grid-section-solution
 
 ### Built with
 
@@ -29,24 +29,24 @@ and pseudo-elements and hover effect
 To see how you can add code snippets, see below:
 
 .one::before {
-content: "";
-width: 150px;
-height: 150px;
-background-image: url(../images/bg-pattern-quotation.svg);
-background-size: cover;
-position: absolute;
-top: 0;
-right: 50px;
-z-index: -1;
-opacity: 0;
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  z-index: -1;
+  opacity: 0;
 }
 @media (min-width: 769px) {
-.one {
-grid-column: span 2;
-}
-.one::before {
-opacity: 1;
-}
+  .one {
+    grid-column: span 2;
+  }
+  .one::before {
+    opacity: 1;
+  }
 }
 
 ### Continued development
